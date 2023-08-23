@@ -1,0 +1,9 @@
+app/android/
+app/ios/
+app/.expo/
+package-lock.json
+.next
+.vscode
+.vercel
+public
+.nuxt

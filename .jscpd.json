@@ -1,0 +1,6 @@
+{
+  "threshold": 10,
+  "ignore": ["**/node_modules", "coverage", ".nuxt", "__tests__"],
+  "pattern": "**/*.{js,tsx,ts}",
+  "absolute": true
+}
