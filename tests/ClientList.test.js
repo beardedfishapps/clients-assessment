@@ -2,6 +2,7 @@ import { describe, test, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 import ClientList from '../components/ClientList.vue'
 
+/** cspell:disable */
 const clients = [
   {
     name: 'Brendon Taylor',
@@ -43,6 +44,7 @@ const clients = [
     nationality: 'France',
   },
 ]
+/** cspell:enable */
 
 /**
  * I normally would write several test functions to test different parts of the component,
