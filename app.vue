@@ -1,6 +1,6 @@
 <template>
   <div class="w-fit m-auto p-8">
-    <div v-if="clients.length > 0">
+    <div v-if="clients?.length > 0">
       <h1 class="text-3xl mb-4 text-center border-b border-black">
         Clients
       </h1>
@@ -16,7 +16,7 @@
       </div>
       <ClientList :clients="filteredClients" />
     </div>
-    <p v-if="clients.length == 0">
+    <p v-if="clients?.length == 0">
       Loading clients...
     </p>
   </div>
