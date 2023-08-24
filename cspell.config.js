@@ -18,6 +18,7 @@ module.exports = {
     '__tests__/mockData',
     'clients.json',
     '__snapshots__',
+    'lighthouse',
   ],
   words: ['Nuxt', 'nuxtjs', 'tailwindcss'],
 }
