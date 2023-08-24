@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Clients Assessment Tests > test that App renders 1`] = `
+{
+  "__file": "/home/banjokaboom/Documents/dev/context-labs-assessment/clients-assessment/app.vue",
+  "__name": "app",
+  "setup": [Function],
+  "ssrRender": [Function],
+}
+`;

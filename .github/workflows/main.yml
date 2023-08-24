@@ -110,3 +110,19 @@ jobs:
 
       - name: Run copy paste detection
         run: yarn jscpd
+  test:
+    runs-on: ${{ fromJSON('["ubuntu-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.3.x
+
+      - name: Install
+        run: yarn install --ignore-engines --silent
+
+      - name: Run vitest
+        run: yarn vitest:coverage

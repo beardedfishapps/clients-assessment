@@ -1,3 +1,9 @@
+# Clients Application Assessment
+
+For this application, I focused on simplicity and clean UI. The design choices were intended to make the colors pop but remain pleasant to view. I am colorblind so my design choices may not be the most appealing to everyone but that's why we work on teams to design applications!
+
+---
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

@@ -1,4 +1,6 @@
 module.exports = {
   extends: ['stylelint-config-standard'],
-  rules: {},
+  rules: {
+    'at-rule-no-unknown': 0,
+  },
 }
